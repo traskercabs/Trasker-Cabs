@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  
+  <title>Intercity Taxi Service Across North India | Trasker Cabs</title>
+
+  <meta name="description" content="Book reliable intercity taxis across Delhi, Dehradun & Mussoorie. Fixed highway fares, verified drivers, and instant 24x7 WhatsApp booking.">
+  <link rel="canonical" href="https://traskercabs.github.io/Trasker-Cabs/">
+  <meta property="og:title" content="Trasker Cabs">
+  <meta property="og:description" content="Premium Intercity Taxi Service">
+  <meta property="og:url" content="https://traskercabs.github.io/Trasker-Cabs/">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
+<noscript>
+<link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+</noscript>
+
+  <style>
+    /* ==========================================
+       OPTIMIZED CORE VARIABLES & RESETS
+       ========================================== */
+    :root {
+      --bg-dark: #060d1a;
+      --bg-surface: #0a192f;
+      --bg-card: #112240;
+      --gold: #f3c400;
+      --gold-hover: #ffd000;
+      --gold-glow: rgba(243, 196, 0, 0.18);
+      --purple-border: rgba(255, 255, 255, 0.1);
+      --text-main: #ffffff;
+      --text-muted: #a898c0;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.5;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .hero{
+    content-visibility:auto;
+    contain-intrinsic-size:600px;
+}
+
+    /* Standardized Focus States for Accessibility */
+    :focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 2px;
+    }
+
+    /* ==========================================
+       NAVBAR
+       ========================================== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 5%;
+      max-width: 1350px;
+      margin: 0 auto;
+      border-bottom: 1px solid var(--purple-border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--gold);
+      color: var(--bg-dark);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.3rem;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .contact-number {
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-right: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact-number:hover {
+      color: var(--gold);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid var(--purple-border);
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .btn-gold {
+      background: var(--gold);
+      color: var(--bg-dark);
+      border: none;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.88rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.15s;
+    }
+
+    .btn-gold:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+
+    /* ==========================================
+       HERO SECTION & NEW IMAGE SLOT
+       ========================================== */
+    .hero {
+      max-width: 1350px;
+      margin: 30px auto 60px;
+      padding: 0 5%;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      letter-spacing: -0.8px;
+    }
+
+    .hero-text h1 span {
+      color: var(--gold);
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      max-width: 520px;
+    }
+
+    /* --- NEW HIGH-PERFORMANCE IMAGE PLACEHOLDER SLOT --- */
+    .hero-image-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 520px;
+      margin: 20px 0 25px;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background: var(--bg-card);
+      border: 1.9px solid rgba(243, 194, 0, 0.615);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .hero-image-wrapper:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+    }
+
+    .hero-image-container {
+      width: 100%;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: auto;
+      max-height: 260px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Clean Image Slot Overlay Label */
+    .image-slot-badge {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(13, 16, 3, 0.85);
+      border: 1px solid var(--purple-border);
+      color: var(--gold);
+      padding: 4px 10px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border-radius: 6px;
+      pointer-events: none;
+      letter-spacing: 0.5px;
+    }
+
+    .trust-badges {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--purple-border);
+      padding: 8px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .badge::before {
+      content: '✓';
+      color: var(--gold);
+      font-weight: 800;
+    }
+
+    /* ==========================================
+       ESTIMATOR WIDGET (LIGHTWEIGHT)
+       ========================================== */
+    .widget {
+      background: var(--bg-surface);
+      border: 1px solid rgba(243, 196, 0, 0.25);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+
+    .widget:hover { 
+        border-color: #f3c400;
+    }
+
+    .widget-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .widget-header h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .status-dot {
+      background: #10b981;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .status-dot::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #fff;
+      border-radius: 50%;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .field {
+      margin-bottom: 14px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .select, .input {
+      width: 100%;
+      height: 48px;
+      padding: 0 14px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--purple-border);
+      border-radius: 10px;
+      color: var(--text-main);
+      font-size: 0.95rem;
+      font-weight: 600;
+      outline: none;
+      transition: border-color 0.2s;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    .select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f3c400' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 38px;
+    }
+
+    .select:focus {
+      border-color: var(--gold);
+    }
+
+    .select option {
+      background: var(--bg-surface);
+      color: var(--text-main);
+    }
+
+    .price-box {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px dashed rgba(243, 196, 0, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      margin: 18px 0;
+    }
+
+    .price-title {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .price-val {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--gold);
+      margin: 2px 0;
+    }
+
+    .price-sub {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    .btn-action {
+      width: 100%;
+      height: 50px;
+      background: var(--gold);
+      color: var(--bg-dark);
+      border: none;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-action:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+
+    /* ==========================================
+       SECTIONS & GRIDS
+       ========================================== */
+    .section {
+      max-width: 1350px;
+      margin: 70px auto;
+      padding: 0 5%;
+    }
+
+    .sec-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .sec-title h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .sec-title p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Popular Routes */
+    .routes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .route-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--purple-border);
+      padding: 16px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+
+    .route-item:hover {
+      border-color: var(--gold);
+      background: var(--bg-card);
+      transform: translateX(4px);
+    }
+
+    .route-item span {
+      color: var(--gold);
+      font-size: 1.1rem;
+    }
+
+    /* Clean static highlight without repaint-heavy CSS keyframe animations */
+    .route-custom-highlight {
+      background: var(--bg-card);
+      border-color: var(--gold);
+    }
+
+    /* Fleet Cards */
+    .fleet-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .fleet-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--purple-border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+
+    .fleet-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    .fleet-tier {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+
+    .fleet-name {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .fleet-specs {
+      display: flex;
+      gap: 12px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--purple-border);
+      flex-wrap: wrap;
+    }
+
+    .fleet-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+    }
+
+    /* Why Choose Us Grid */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 16px;
+      text-align: center;
+    }
+
+    .feature-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--purple-border);
+      padding: 22px 16px;
+      border-radius: var(--radius-md);
+      transition: border-color 0.2s, background-color 0.2s;
+    }
+
+    .feature-box:hover {
+      border-color: var(--gold);
+      background: var(--bg-card);
+    }
+
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .feature-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    /* FAQ Section */
+    .faq-container {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--purple-border);
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .faq-item summary {
+      font-weight: 700;
+      font-size: 1.05rem;
+      padding: 18px 20px;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-item summary::after {
+      content: '+';
+      color: var(--gold);
+      font-size: 1.4rem;
+      transition: transform 0.2s;
+    }
+
+    .faq-item[open] summary::after {
+      transform: rotate(45deg);
+    }
+
+    .faq-item p {
+      color: var(--text-muted);
+      padding: 0 20px 18px;
+      font-size: 0.92rem;
+    }
+
+    /* Driver Onboarding Banner */
+    .driver-banner {
+      background: var(--bg-surface);
+      border: 1px solid rgba(243, 196, 0, 0.3);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .driver-text h3 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .driver-text p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 580px;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--bg-surface);
+      border-top: 1px solid var(--purple-border);
+      padding: 50px 5% 30px;
+      margin-top: 60px;
+    }
+
+    .footer-grid {
+      max-width: 1350px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 35px;
+    }
+
+    .footer-col h4 {
+      color: var(--text-main);
+      margin-bottom: 16px;
+      font-size: 1.05rem;
+      font-weight: 800;
+    }
+
+    .footer-col a, .footer-col p {
+      display: block;
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+    }
+
+    .footer-col a:hover {
+      color: var(--gold);
+    }
+
+    .footer-about {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .footer-bottom {
+      max-width: 1350px;
+      margin: 35px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid var(--purple-border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+    }
+
+    /* Sticky Mobile Action Bar */
+    .mobile-action-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(20, 11, 36, 0.96);
+      border-top: 1px solid var(--purple-border);
+      padding: 10px 16px;
+      z-index: 999;
+      gap: 10px;
+    }
+
+    .mobile-btn {
+      flex: 1;
+      height: 48px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .mobile-btn-call {
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid var(--purple-border);
+    }
+
+    .mobile-btn-wa {
+      background: var(--gold);
+      color: var(--bg-dark);
+    }
+
+    /* ==========================================
+       MOBILE RESPONSIVE BREAKPOINTS
+       ========================================== */
+    @media (max-width: 900px) {
+      body {
+        padding-bottom: 68px; /* Leave clean space for fixed sticky mobile bar */
+      }
+
+      .navbar {
+        padding: 14px 5%;
+      }
+
+      .nav-actions {
+        display: none;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 20px auto 40px;
+      }
+
+      .hero-text h1 {
+        font-size: 2.2rem;
+      }
+
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .driver-banner {
+        padding: 28px;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .mobile-action-bar {
+        display: flex;
+      }
+
+      .sec-title h2 {
+        font-size: 1.8rem;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+    }
+
+    .hero-img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:cover;
+}
+
+  </style>
+
+  <!-- Structured Data (TaxiService) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "name": "Trasker Cabs",
+    "url": "https://traskercabs.github.io/Trasker-Cabs/",
+    "description": "Book reliable intercity taxis across Delhi, Dehradun, Mussoorie, Noida, Jaipur, Haridwar, and North India. Transparent fixed pricing, professional drivers, and zero surge charges.",
+    "telephone": "+91-8218602998",
+    "email": "traskercabs@gmail.com",
+    "priceRange": "₹₹",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Delhi" },
+      { "@type": "City", "name": "Dehradun" },
+      { "@type": "City", "name": "Mussoorie" },
+      { "@type": "City", "name": "Noida" },
+      { "@type": "City", "name": "Jaipur" },
+      { "@type": "City", "name": "Haridwar" },
+      { "@type": "City", "name": "Rishikesh" },
+      { "@type": "City", "name": "Meerut" },
+      { "@type": "City", "name": "Bijnor" },
+      { "@type": "City", "name": "Ghaziabad" }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data (FAQPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is Delhi to Dehradun taxi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The estimated fare for a sedan from Delhi to Dehradun starts at roughly ₹3,499. The final price depends on the exact pick-up and drop-off locations, toll taxes, and vehicle category."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is toll included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, all our estimated quotes include state toll taxes, fuel, and driver allowance."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <div class="brand-icon">T</div>
+      TRASKER <span>CABS</span>
+    </a>
+    <div class="nav-actions">
+      <a href="tel:+918218602998" class="contact-number">📞 +91 8218602998</a>
+      <button class="btn-outline" onclick="handleButtonClick('driver_attach')">Attach Your Taxi</button>
+      <button class="btn-gold" onclick="handleButtonClick('general_support')">WhatsApp Helpdesk</button>
+    </div>
+  </nav>
+  <main> 
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Book Reliable Intercity Taxis Across <span>North India.</span></h1>
+      <p>Direct highway connectivity, transparent pricing, and professional drivers. Book your intercity ride instantly without hidden surge charges.</p>
+
+      <!-- ==========================================
+           DEDICATED HERO IMAGE SLOT PLACEHOLDER
+           (Clean, light-weight container for your image)
+           ========================================== -->
+      <div class="hero-image-wrapper">
+        <div class="hero-image-container" onclick="handleButtonClick('fleet', 'sedan')" style="cursor: pointer;">
+          <!-- REPLACE 'YOUR_IMAGE_URL_HERE.jpg' WITH YOUR DESIRED IMAGE SOURCE -->
+          <img
+  src="ii.webp"
+  srcset="
+    iii.webp 738w,
+    ii.webp 1420w"
+  sizes="(max-width: 900px) 100vw, 520px"
+  alt="Trasker Cab Fleet"
+  class="hero-img"
+  width="1420"
+  height="738"
+  fetchpriority="high"
+  decoding="async"
+  onerror="this.style.display='none'; document.getElementById('imagePlaceholderFallback').style.display='flex';">
+
+          <!-- Lightweight SVG Fallback if image path is not added yet -->
+          <div id="imagePlaceholderFallback" style="display:none; padding: 40px 20px; text-align: center; flex-direction: column; align-items: center; gap: 8px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f3c400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+            <span style="font-weight: 700; font-size: 0.9rem; color: var(--gold);">Image Container Slot</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Replace 'YOUR_IMAGE_URL_HERE.jpg' in the HTML src tag</span>
+          </div>
+          
+          <div class="image-slot-badge">FLEET SHOWCASE</div>
+        </div>
+      </div>
+
+      <div class="trust-badges">
+        <div class="badge">Zero Surge Pricing</div>
+        <div class="badge">Verified Highway Drivers</div>
+        <div class="badge">Doorstep Pickup</div>
+      </div>
+    </div>
+
+    <!-- Interactive Estimator Widget -->
+    <div class="widget">
+      <div class="widget-header">
+        <h2>Express Fare Estimator</h2>
+        <div class="status-dot">Dispatch Live</div>
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label for="pickup">Pickup City</label>
+          <select id="pickup" class="select" onchange="calculate()">
+            <option value="Delhi">Delhi / NCR</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Noida">Noida / Ghaziabad</option>
+            <option value="Mussoorie">Mussoorie</option>
+            <option value="Meerut">Meerut</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="dropoff">Drop-off City</label>
+          <select id="dropoff" class="select" onchange="calculate()">
+            <option value="Dehradun">Dehradun</option>
+            <option value="Delhi">Delhi / NCR</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Bijnor">Bijnor</option>
+            <option value="Mussoorie">Mussoorie</option>
+            <option value="Meerut">Meerut</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="vehicle">Select Vehicle Class</label>
+        <select id="vehicle" class="select" onchange="calculate()">
+          <option value="sedan">Sedan (Swift Dzire / Hyundai Aura) • 4 Seats</option>
+          <option value="suv">SUV (Ertiga / Carens) • 6 Seats</option>
+          <option value="prime">Prime Executive (Innova Crysta) • 6 Seats</option>
+        </select>
+      </div>
+
+      <div class="price-box">
+        <div class="price-title">ESTIMATED HIGHWAY FARE</div>
+        <div id="priceDisplay" class="price-val">₹3,499 - ₹3,999</div>
+        <div class="price-sub">Includes state toll taxes, fuel & driver allowance</div>
+      </div>
+
+      <button class="btn-action" onclick="handleButtonClick('widget_book')">
+        ⚡ Book This Route Now
+      </button>
+    </div>
+  </header>
+
+  <!-- Popular Express Routes -->
+  <section class="section">
+    <div class="sec-title">
+      <h2>Popular Intercity Corridors</h2>
+      <p>Frequent express routes maintained by our dedicated highway drivers.</p>
+    </div>
+    <div class="routes-grid">
+      <a href="https://traskercabs.github.io/Delhi-Dehradun/" class="route-item" onclick="handleButtonClick('route', 'Delhi to Dehradun');">Delhi to Dehradun Taxi <span>→</span></a>
+      <a href="delhi-to-jaipur.html" class="route-item" onclick="handleButtonClick('route', 'Delhi to Jaipur');">Delhi to Jaipur Taxi <span>→</span></a>
+      <a href="dehradun-to-bijnor.html" class="route-item" onclick="handleButtonClick('route', 'Dehradun to Bijnor');">Dehradun to Bijnor Taxi <span>→</span></a>
+      <a href="dehradun-to-jaipur.html" class="route-item" onclick="handleButtonClick('route', 'Dehradun to Jaipur');">Dehradun to Jaipur Taxi <span>→</span></a>
+      <a href="delhi-to-meerut.html" class="route-item" onclick="handleButtonClick('route', 'Delhi to Meerut');">Delhi to Meerut Taxi <span>→</span></a>
+      <a href="dehradun-to-mussoorie.html" class="route-item" onclick="handleButtonClick('route', 'Dehradun to Mussoorie');">Dehradun to Mussoorie Taxi <span>→</span></a>
+      <a href="dehradun-to-noida.html" class="route-item" onclick="handleButtonClick('route', 'Dehradun to Noida');">Dehradun to Noida Taxi <span>→</span></a>
+      <a href="#" class="route-item route-custom-highlight" onclick="handleButtonClick('route', 'Custom Destination');">Custom Destination <span>✨</span></a>
+    </div>
+  </section>
+
+  <!-- Fleet Showcase -->
+  <section class="section">
+    <div class="sec-title">
+      <h2>Our Maintained Fleet</h2>
+      <p>Pick the vehicle category tailored to your luggage and travel comfort.</p>
+    </div>
+    <div class="fleet-grid">
+      <div class="fleet-card">
+        <div class="fleet-tier">Economy Express</div>
+        <div class="fleet-name">Sedan Cab</div>
+        <div class="fleet-specs">👥 4 Seats • 🧳 2 Bags • ❄️ AC</div>
+        <p class="fleet-desc">Perfect for quick intercity corporate travel, couples, or solo travelers. Swift Dzire, Hyundai Aura, or similar.</p>
+        <button class="btn-outline" style="width:100%" onclick="handleButtonClick('fleet', 'sedan')">Select Sedan</button>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-tier">Family Comfort</div>
+        <div class="fleet-name">6-Seater SUV</div>
+        <div class="fleet-specs">👥 6 Seats • 🧳 4 Bags • ❄️ Dual AC</div>
+        <p class="fleet-desc">Spacious seating with extended boot capacity for family vacations and hill station trips. Maruti Ertiga or Kia Carens.</p>
+        <button class="btn-outline" style="width:100%" onclick="handleButtonClick('fleet', 'suv')">Select SUV</button>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-tier">Executive Luxury</div>
+        <div class="fleet-name">Prime Executive</div>
+        <div class="fleet-specs">👥 6 Seats • 🧳 5 Bags • ❄️ Plush AC</div>
+        <p class="fleet-desc">Maximum legroom, plush captain seats, and superior suspension for long highway journeys. Toyota Innova Crysta.</p>
+        <button class="btn-gold" style="width:100%" onclick="handleButtonClick('fleet', 'prime')">Select Prime SUV</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Trasker Section -->
+  <section class="section">
+    <div class="sec-title">
+      <h2>Why Choose Trasker?</h2>
+      <p>We are committed to making your intercity travel safe, reliable, and entirely transparent.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-box">
+        <div class="feature-icon">📲</div>
+        <div class="feature-title">Live Fare Estimator</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">👑</div>
+        <div class="feature-title">Skilled Drivers</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🏙️</div>
+        <div class="feature-title">10+ Cities Covered</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">⛰️</div>
+        <div class="feature-title">Hill Sightseeing Tours</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">✨</div>
+        <div class="feature-title">Wide Fleet</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🔄</div>
+        <div class="feature-title">One-way & Round Trips</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="sec-title">
+      <h2>Frequently Asked Questions</h2>
+      <p>Everything you need to know about booking an intercity cab with Trasker Cabs.</p>
+    </div>
+    <div class="faq-container">
+      <details class="faq-item">
+        <summary>How much is Delhi to Dehradun taxi?</summary>
+        <p>The estimated fare for a sedan from Delhi to Dehradun starts at roughly ₹3,499. The final price depends on the exact pick-up and drop-off locations, toll taxes, and the vehicle category you choose.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I customize my trip?</summary>
+        <p>Yes. We can arrange multiple stops, sightseeing, hotel pickups, airport transfers, and custom itineraries.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is toll included?</summary>
+        <p>Yes, our pricing is transparent. Fuel, driver charges, and applicable tolls are included. Parking charges, if any, are billed separately.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I pay online?</summary>
+        <p>Absolutely. We accept a variety of payment methods including UPI and online bank transfers for a seamless booking experience.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do you offer one way cabs?</summary>
+        <p>Yes, we specialize in both one-way intercity drops and round trips. You only pay for the distance you travel on one-way bookings.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do you provide airport pickups?</summary>
+        <p>Yes. We provide pickups and drop-offs from Delhi Airport, Dehradun Airport (Jolly Grant), and other major airports on request.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Driver Onboarding Banner -->
+  <section class="section">
+    <div class="driver-banner">
+      <div class="driver-text">
+        <h3>Own a Commercial Taxi? Partner With Us.</h3>
+        <p>Join the Trasker Cabs network. Get consistent intercity highway bookings, transparent vendor payouts, and flexible driver onboarding.</p>
+      </div>
+      <button class="btn-gold" style="padding: 16px 32px; font-size: 1rem;" onclick="handleButtonClick('driver_onboard_banner')">
+        🚗 Attach Your Taxi Now
+      </button>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col" style="grid-column: span 2;">
+        <h4>About Trasker Cabs</h4>
+        <p class="footer-about">
+          We provide premier intercity taxi services across Delhi, Dehradun, Mussoorie, Noida, Ghaziabad, Haridwar, Rishikesh, Jaipur and surrounding cities.
+          <br><br>
+          Trasker Cabs provides reliable taxi services from Delhi to Dehradun, Delhi to Mussoorie, Noida to Dehradun, Ghaziabad to Dehradun, Haridwar, Rishikesh, Jaipur, Kanatal, and many other destinations across North India.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Popular Routes</h4>
+        <a href="#">Delhi to Dehradun</a>
+        <a href="#">Delhi to Jaipur</a>
+        <a href="#">Dehradun to Mussoorie</a>
+        <a href="#">Noida to Dehradun</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Phone: +91 8218602998</p>
+        <p>WhatsApp: +91 8218602998</p>
+        <p>Email: traskercabs@gmail.com</p>
+        <a href="policies.html"> Privacy Policy </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Trasker Cabs. All Rights Reserved.
+    </div>
+  </footer> 
+
+  <!-- Sticky Mobile Action Bar -->
+  <div class="mobile-action-bar">
+    <a href="tel:+918218602998" class="mobile-btn mobile-btn-call">
+      📞 Call Now
+    </a>
+    <button class="mobile-btn mobile-btn-wa" onclick="handleButtonClick('general_support')">
+      💬 WhatsApp
+    </button>
+  </div>
+
+  <!-- JS LOGIC ENGINE -->
+  <script>
+    const APP_LINKS = {
+      whatsappNumber: "918218602998",
+      driverOnboardingUrl: "https://forms.gle/oJGsSMvQZQ8EfwLWA",
+      googleSheetsWebhook: "" 
+    };
+
+    // Centralized Tracking Engine
+    function trackConversion(eventName, eventData = {}) {
+      if (typeof gtag === 'function') {
+        gtag('event', eventName, eventData);
+      }
+      if (typeof fbq === 'function') {
+        let metaEvent = 'CustomEvent';
+        if (eventName === 'generate_lead') metaEvent = 'Lead';
+        if (eventName === 'contact' || eventName === 'phone_call') metaEvent = 'Contact';
+        if (eventName === 'partner_signup') metaEvent = 'CompleteRegistration';
+        if (eventName === 'view_item_list') metaEvent = 'ViewContent';
+        fbq('track', metaEvent, eventData);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+        link.addEventListener('click', () => {
+          trackConversion('phone_call', {
+            method: 'mobile_dialer',
+            phone_number: link.getAttribute('href').replace('tel:', '')
+          });
+        });
+      });
+    });
+
+    // Button Click & Route Handler
+    function handleButtonClick(actionType, extraData = "") {
+      const waNum = APP_LINKS.whatsappNumber;
+      
+      switch(actionType) {
+        case 'driver_attach':
+        case 'driver_onboard_banner':
+          trackConversion('partner_signup', { partner_type: 'driver_onboarding', source_button: actionType });
+          window.open(APP_LINKS.driverOnboardingUrl, '_blank');
+          break;
+
+        case 'general_support':
+          trackConversion('contact', { channel: 'whatsapp_helpdesk', source_button: actionType });
+          window.open(`https://wa.me/${waNum}?text=Hi%20Trasker%20Cabs%2C%20I%20need%20assistance.`, '_blank');
+          break;
+
+        case 'widget_book':
+          const pickup = document.getElementById('pickup').value;
+          const dropoff = document.getElementById('dropoff').value;
+          const vehicleSelect = document.getElementById('vehicle');
+          const vehicleFullName = vehicleSelect.options[vehicleSelect.selectedIndex].text;
+          const vehicleType = vehicleFullName.split(' (')[0]; 
+          const price = document.getElementById('priceDisplay').innerText;
+          
+          trackConversion('generate_lead', {
+            currency: 'INR',
+            value: parseInt(price.replace(/[^0-9]/g, '')) || 0,
+            route: `${pickup} to ${dropoff}`,
+            pickup_city: pickup,
+            dropoff_city: dropoff,
+            vehicle_class: vehicleType,
+            estimated_fare: price
+          });
+
+          let widgetMsg = '';
+          if (price === "Custom Local Package") {
+             widgetMsg = `Hi, I want to book a local cab in ${pickup} (${vehicleType}).`;
+          } else if (price === "Custom Route Quote") {
+             widgetMsg = `Hi, I want to book a cab to ${dropoff} from ${pickup} (${vehicleType}). Can I get a quote?`;
+          } else {
+             widgetMsg = `Hi, I want to book a cab to ${dropoff} from ${pickup}.\nVehicle: ${vehicleType}\nEstimated Fare: ${price}`;
+          }
+          
+          window.open(`https://wa.me/${waNum}?text=${encodeURIComponent(widgetMsg)}`, '_blank');
+          break;
+
+        case 'route':
+          trackConversion('view_item_list', { item_list_name: 'popular_routes', selected_route: extraData });
+
+          if (extraData === 'Custom Destination') {
+            window.open(`https://wa.me/${waNum}?text=Hi%2C%20I%20need%20a%20quote%20for%20a%20custom%20route.`, '_blank');
+            break;
+          }
+
+          const widgetEl = document.querySelector('.widget');
+          widgetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+          let parts = extraData.split(' to ');
+          if (parts.length === 2) {
+            document.getElementById('pickup').value = parts[0];
+            document.getElementById('dropoff').value = parts[1];
+            calculate();
+          }
+          break;
+
+        case 'fleet':
+          trackConversion('view_item_list', { item_list_name: 'fleet_showcase', selected_vehicle: extraData });
+          const fleetWidgetEl = document.querySelector('.widget');
+          fleetWidgetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          document.getElementById('vehicle').value = extraData;
+          calculate();
+          break;
+      }
+    }
+
+    // Fare Estimation Matrices
+    const rates = {
+      "Delhi-Dehradun": { sedan: 3499, suv: 4500, prime: 5500 },
+      "Dehradun-Delhi": { sedan: 3499, suv: 4500, prime: 5500 },
+      "Dehradun-Jaipur": { sedan: 6499, suv: 7800, prime: 9000 },
+      "Jaipur-Dehradun": { sedan: 6499, suv: 7800, prime: 9000 },
+      "Delhi-Jaipur": { sedan: 3499, suv: 4800, prime: 6000 },
+      "Jaipur-Delhi": { sedan: 3499, suv: 4800, prime: 6000 },
+      "Dehradun-Bijnor": { sedan: 2499, suv: 3500, prime: 4500 },
+      "Bijnor-Dehradun": { sedan: 2499, suv: 3500, prime: 4500 },
+      "Delhi-Meerut": { sedan: 1999, suv: 2600, prime: 3500 },
+      "Meerut-Delhi": { sedan: 1999, suv: 2600, prime: 3500 },
+      "Dehradun-Mussoorie": { sedan: 1899, suv: 2200, prime: 3000 },
+      "Mussoorie-Dehradun": { sedan: 1899, suv: 2200, prime: 3000 },
+      "Dehradun-Noida": { sedan: 3499, suv: 4400, prime: 5400 },
+      "Noida-Dehradun": { sedan: 3499, suv: 4400, prime: 5400 }
+    };
+
+    const distances = {
+      "Delhi-Noida": 30, "Delhi-Mussoorie": 290, "Delhi-Bijnor": 160,
+      "Noida-Mussoorie": 290, "Noida-Meerut": 75, "Noida-Jaipur": 290, "Noida-Bijnor": 155,
+      "Meerut-Dehradun": 170, "Meerut-Mussoorie": 200, "Meerut-Jaipur": 330, "Meerut-Bijnor": 75,
+      "Jaipur-Mussoorie": 560, "Jaipur-Bijnor": 420, "Mussoorie-Bijnor": 180
+    };
+
+    function calculate() {
+      const p = document.getElementById('pickup').value;
+      const d = document.getElementById('dropoff').value;
+      const v = document.getElementById('vehicle').value;
+      const display = document.getElementById('priceDisplay');
+
+      if (p === d) {
+        display.innerText = "Custom Local Package";
+        return;
+      }
+
+      const key = `${p}-${d}`;
+      const revKey = `${d}-${p}`;
+      
+      let rate = rates[key]?.[v] || rates[revKey]?.[v];
+      let isDynamic = false;
+
+      if (!rate) {
+        const dist = distances[key] || distances[revKey];
+        if (dist) {
+          let baseRate = dist * 15.5; 
+          if (v === 'suv') baseRate *= 1.35; 
+          if (v === 'prime') baseRate *= 1.6; 
+          
+          rate = Math.round(baseRate / 100) * 100;
+          isDynamic = true;
+        }
+      }
+
+      if (rate) {
+        let rangeBoost = 500; 
+        if (isDynamic) {
+          rangeBoost = 600; 
+        } else if (key === "Dehradun-Mussoorie" || revKey === "Dehradun-Mussoorie") {
+          rangeBoost = 100; 
+        }
+
+        const upperRate = rate + rangeBoost;
+        display.innerText = `₹${rate.toLocaleString('en-IN')} - ₹${upperRate.toLocaleString('en-IN')}`;
+      } else {
+        display.innerText = "Custom Route Quote";
+      }
+    }
+
+    window.onload = calculate;
+  </script>
+  <script>
+window.addEventListener("load", () => {
+  const s = document.createElement("script");
+  s.async = true;
+  s.src = "https://www.googletagmanager.com/gtag/js?id=G-5EM9KRMB0L";
+  document.head.appendChild(s);
+
+  s.onload = () => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+
+    gtag("js", new Date());
+    gtag("config", "G-5EM9KRMB0L");
+  };
+});
+</script>
+
+</body>
+</html>
