@@ -22,11 +22,12 @@ window.addEventListener('load', function () {
 </script>
 
   
-  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/png" sizes="96x96" href="/Trasker-Cabs/favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="/Trasker-Cabs/favicon.svg">
+  <link rel="shortcut icon" href="/Trasker-Cabs/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Trasker-Cabs/apple-touch-icon.png">
+  <link rel="manifest" href="/Trasker-Cabs/site.webmanifest">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   
@@ -1027,61 +1028,71 @@ window.addEventListener('load', function () {
 
   <!-- Structured Data (TaxiService) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "TaxiService",
-    "name": "Trasker Cabs",
-    "url": "https://traskercabs.github.io/Trasker-Cabs/",
-    "description": "Book reliable intercity taxis across Delhi, Dehradun, Mussoorie, Noida, Jaipur, Haridwar, and North India. Transparent fixed pricing, professional drivers, and zero surge charges.",
-    "telephone": "+91-8218602998",
-    "email": "traskercabs@gmail.com",
-    "priceRange": "₹₹",
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Delhi" },
-      { "@type": "City", "name": "Dehradun" },
-      { "@type": "City", "name": "Mussoorie" },
-      { "@type": "City", "name": "Noida" },
-      { "@type": "City", "name": "Jaipur" },
-      { "@type": "City", "name": "Haridwar" },
-      { "@type": "City", "name": "Rishikesh" },
-      { "@type": "City", "name": "Meerut" },
-      { "@type": "City", "name": "Bijnor" },
-      { "@type": "City", "name": "Ghaziabad" }
-    ]
-  }
-  </script>
+{
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "name": "Trasker Cabs",
+  "url": "https://traskercabs.github.io/Trasker-Cabs/",
+  "description": "Book reliable intercity taxis across Delhi, Dehradun, Mussoorie, Noida, Jaipur, Haridwar, and North India. Transparent fixed pricing, professional drivers, and zero surge charges.",
+  "telephone": "+91-8218602998",
+  "email": "traskercabs@gmail.com",
+  "priceRange": "₹₹",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Delhi" },
+    { "@type": "City", "name": "Dehradun" },
+    { "@type": "City", "name": "Mussoorie" },
+    { "@type": "City", "name": "Noida" },
+    { "@type": "City", "name": "Jaipur" },
+    { "@type": "City", "name": "Haridwar" },
+    { "@type": "City", "name": "Rishikesh" },
+    { "@type": "City", "name": "Meerut" },
+    { "@type": "City", "name": "Bijnor" },
+    { "@type": "City", "name": "Ghaziabad" }
+  ]
+}
+</script>
 
-  <!-- Structured Data (FAQPage) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much is Delhi to Dehradun taxi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The estimated fare for a sedan from Delhi to Dehradun starts at roughly ₹3,499. The final price depends on the exact pick-up and drop-off locations, toll taxes, and vehicle category."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is toll included?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, all our estimated quotes include state toll taxes, fuel, and driver allowance."
-        }
+<!-- Structured Data (FAQPage) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much is Delhi to Dehradun taxi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The estimated fare for a sedan from Delhi to Dehradun starts at roughly ₹3,499. The final price depends on the exact pick-up and drop-off locations, toll taxes, and vehicle category."
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "Question",
+      "name": "Is toll included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all our estimated quotes include state toll taxes, fuel, and driver allowance."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Required for Google Site Name -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Trasker Cabs",
+  "url": "https://traskercabs.github.io/Trasker-Cabs/"
+}
+</script>
 </head>
 <body>
 
