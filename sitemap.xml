@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Website -->
   <url>
-    <loc>https://traskercabs.github.io/Trasker-Cabs/</loc>
+    <loc>https://traskercabs.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Route Pages -->
   <url>
-    <loc>https://traskercabs.github.io/Delhi-Dehradun/</loc>
+    <loc>https://delhi-dehradun.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Dehradun-to-Delhi/</loc>
+    <loc>https://dehradun-delhi.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Dehradun-To-Chandigarh/</loc>
+    <loc>https://dehradun-chandigarh.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Chandigarh-to-Dehradun/</loc>
+    <loc>https://chandigarh-dehradun.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Delhi-Mussoorie/</loc>
+    <loc>https://delhi-mussoorie.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Mussoorie-to-Delhi/</loc>
+    <loc>https://mussoorie-delhi.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Delhi-to-Rishikesh-/</loc>
+    <loc>https://delhi-rishikesh.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://traskercabs.github.io/Rishikesh-to-Delhi/</loc>
+    <loc>https://rishikesh-delhi.traskercabs.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Legal / Policies -->
   <url>
-    <loc>https://traskercabs.github.io/Policies/</loc>
+    <loc>https://policies.traskercabs.com/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
