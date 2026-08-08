@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>
-window.addEventListener('load', function () {
-  setTimeout(function () {
+  <!-- Basic Page Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  
+  <title>Trasker Cabs | Intercity Taxi Service Across North India</title>
+  <meta name="description" content="Need a reliable intercity taxi? Trasker Taxi offers fixed fares and verified drivers for Delhi to Dehradun routes. Book instantly 24/7 via WhatsApp.">
+  <meta name="application-name" content="Trasker Cabs">
+  <meta name="apple-mobile-web-app-title" content="Trasker Cabs">
 
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-5EM9KRMB0L';
-    document.head.appendChild(script);
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://traskercabs.com/">
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    window.gtag = gtag;
+  <!-- Open Graph / WhatsApp Preview Tags -->
+  <meta property="og:site_name" content="Trasker Cabs">
+  <meta property="og:title" content="Trasker Cabs | Outstation Taxi Service Across North India"> 
+  <meta property="og:description" content="Book reliable intercity taxis across North India with fixed fares and verified drivers.">
+  <meta property="og:url" content="https://traskercabs.com/">
+  <meta property="og:type" content="website">
+  <!-- Add your absolute image URL for WhatsApp link previews below -->
+  <meta property="og:image" content="https://traskercabs.com/disp.avif">
 
-    gtag('js', new Date());
-    gtag('config', 'G-5EM9KRMB0L');
-
-  }, 3000); // Delay by 3 seconds after page load
-});
-</script>
-
+  <!-- Favicons -->
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  
-  <title>Intercity Taxi Service Across North India | Trasker Cabs</title>
-
-  <meta name="description" content="Book reliable intercity taxis across Delhi, Dehradun & Mussoorie. Fixed highway fares, verified drivers, and instant 24x7 WhatsApp booking.">
-  <meta name="application-name" content="Trasker Cabs">
-  <meta name="apple-mobile-web-app-title" content="Trasker Cabs">
-  <meta property="og:site_name" content="Trasker Cabs">
-  <link rel="canonical" href="https://traskercabs.com">
-  <meta property="og:title" content="Intercity Taxi Service Across North India | Trasker Cabs">  <meta property="og:description" content="Premium Intercity Taxi Service">
-  <meta property="og:url" content="https://traskercabs.com">
-  <meta property="og:type" content="website">
-
+  <!-- Fonts Preconnect & Preload -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <link
     rel="preload"
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
     as="style"
     onload="this.onload=null;this.rel='stylesheet'">
-
   <noscript>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
   </noscript>
+
+  <!-- Google Tag Manager / Analytics -->
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-5EM9KRMB0L';
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+
+        gtag('js', new Date());
+        gtag('config', 'G-5EM9KRMB0L');
+      }, 3000);
+    });
+  </script>
 
   <style>
     /* ==========================================
@@ -1027,71 +1033,73 @@ window.addEventListener('load', function () {
 
   <!-- Structured Data (TaxiService) -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TaxiService",
-  "name": "Trasker Cabs",
-  "url": "https://traskercabs.com",
-  "description": "Book reliable intercity taxis across Delhi, Dehradun, Mussoorie, Noida, Jaipur, Haridwar, and North India. Transparent fixed pricing, professional drivers, and zero surge charges.",
-  "telephone": "+91-8218602998",
-  "email": "traskercabs@gmail.com",
-  "priceRange": "₹₹",
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "areaServed": [
-    { "@type": "City", "name": "Delhi" },
-    { "@type": "City", "name": "Dehradun" },
-    { "@type": "City", "name": "Mussoorie" },
-    { "@type": "City", "name": "Noida" },
-    { "@type": "City", "name": "Jaipur" },
-    { "@type": "City", "name": "Haridwar" },
-    { "@type": "City", "name": "Rishikesh" },
-    { "@type": "City", "name": "Meerut" },
-    { "@type": "City", "name": "Bijnor" },
-    { "@type": "City", "name": "Ghaziabad" }
-  ]
-}
-</script>
-
-<!-- Structured Data (FAQPage) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much is Delhi to Dehradun taxi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The estimated fare for a sedan from Delhi to Dehradun starts at roughly ₹3,499. The final price depends on the exact pick-up and drop-off locations, toll taxes, and vehicle category."
-      }
+  {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "name": "Trasker Cabs",
+    "url": "https://traskercabs.com/",
+    "description": "Book reliable intercity taxis across Delhi, Dehradun, Mussoorie, Noida, Jaipur, Haridwar, and North India. Transparent fixed pricing, professional drivers, and zero surge charges.",
+    "telephone": "+91-8218602998",
+    "email": "traskercabs@gmail.com",
+    "priceRange": "₹₹",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
     },
-    {
-      "@type": "Question",
-      "name": "Is toll included?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, all our estimated quotes include state toll taxes, fuel, and driver allowance."
-      }
-    }
-  ]
-}
-</script>
+    "areaServed": [
+      { "@type": "City", "name": "Delhi" },
+      { "@type": "City", "name": "Dehradun" },
+      { "@type": "City", "name": "Mussoorie" },
+      { "@type": "City", "name": "Noida" },
+      { "@type": "City", "name": "Jaipur" },
+      { "@type": "City", "name": "Haridwar" },
+      { "@type": "City", "name": "Rishikesh" },
+      { "@type": "City", "name": "Meerut" },
+      { "@type": "City", "name": "Bijnor" },
+      { "@type": "City", "name": "Ghaziabad" }
+    ]
+  }
+  </script>
 
-<!-- Required for Google Site Name -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Trasker Cabs",
-  "url": "https://traskercabs.com"
-}
-</script>
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much is Delhi to Dehradun taxi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The estimated fare for a sedan from Delhi to Dehradun starts at roughly ₹3,499. The final price depends on the exact pick-up and drop-off locations, toll taxes, and vehicle category."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is toll included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, all our estimated quotes include state toll taxes, fuel, and driver allowance."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: WebSite (Site Name Engine) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Trasker Cabs",
+    "alternateName": "Trasker Taxi",
+    "url": "https://traskercabs.com/"
+  }
+  </script>
+  
 </head>
 <body>
 
